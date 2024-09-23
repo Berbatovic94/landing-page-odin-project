@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 70%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#heroSection {
+  background-color: #1f2937;
+  height: 600px;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.navLogo {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.navLogo h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  color: white;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.navigation ul li {
+  display: inline;
+  padding: 0 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation ul li a:link {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s all ease;
+}
+.navigation ul li a:hover {
+  color: #3882f6;
+}
