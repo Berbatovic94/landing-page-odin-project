@@ -47,3 +47,32 @@
 .navigation ul li a:hover {
   color: #3882f6;
 }
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: white;
+  font-weight: 800;
+}
+
+.heroTextContainer p {
+  color: white;
+  font-weight: 200;
+}
+
+button {
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: white;
+}
+
+.heroImageContainer img {
+  width: 500px;
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+}
