@@ -16,6 +16,7 @@
 .navContainer {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .navLogo {
   display: flex;
@@ -53,26 +54,45 @@ h1 {
   font-size: 50px;
   color: white;
   font-weight: 800;
+  line-height: 1;
+  padding-bottom: 25px;
 }
 
 .heroTextContainer p {
   color: white;
   font-weight: 200;
+  padding-bottom: 25px;
+  width: 80%;
 }
 
 button {
   border: 0;
   padding: 10px 30px;
   border-radius: 10px;
-  background-color: #3882f6;
+  background-color: rgb(56, 130, 246);
   color: white;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(56, 130, 246, 0.8);
+}
+
+.heroImageContainer {
+  background-color: rgb(56, 130, 246);
+  border-radius: 20px;
 }
 
 .heroImageContainer img {
   width: 500px;
+  position: relative;
+  border-radius: 20px;
+  left: 20px;
+  bottom: 20px;
 }
 
 .heroContent {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  margin-bottom: 100px;
 }
