@@ -11,7 +11,8 @@ h5,
 h6 {
   font-family: "Roboto", sans-serif;
 }
-p {
+p,
+a {
   font-family: "Roboto", sans-serif;
 }
 .wrapper {
@@ -176,4 +177,11 @@ button:hover {
 
 #CTAsection .wrapper p {
   font-weight: 100;
+}
+
+#footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
